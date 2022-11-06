@@ -1,0 +1,27 @@
+.card {
+    width: 15rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 20%);
+    border: none;
+}
+
+.card-body:hover {
+    cursor: pointer;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.popover-btn {
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.popover-btn:hover {
+    background-color: white;
+    color: black;
+}

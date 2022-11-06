@@ -1,0 +1,28 @@
+{
+  "name": "memory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "client-install": "npm install --prefix Client",
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm start --prefix Client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix Client && npm run build --prefix Client"
+  },
+  "author": "Ganesh",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1117.0",
+    "concurrently": "^7.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-jwt": "^6.1.1",
+    "jwks-rsa": "^2.0.5",
+    "mongoose": "^6.3.0",
+    "multer": "^1.4.4",
+    "multer-s3": "^2.10.0"
+  }
+}

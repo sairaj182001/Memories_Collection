@@ -1,0 +1,25 @@
+nav {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.navbar-nav {
+    font-size: 15px !important;
+}
+
+.navbar-nav>* {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-nav button {
+    height: 2rem;
+}
+
+#folder,
+#upload {
+    border: none;
+    background-color: snow;
+    color: grey;
+}

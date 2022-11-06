@@ -1,0 +1,12 @@
+.Home {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
